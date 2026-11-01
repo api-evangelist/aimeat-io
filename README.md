@@ -1,4 +1,4 @@
-# aimeat-io
+# AIMEAT
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,189 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aimeat-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aimeat.io/
+AIMEAT is a free demo site that showcases an AI memory exchange and action transfer platform. It allows users to connect their own AI models, run agents, and accelerate AI-driven work. The site provides open access without registration, emphasizing user control over data and models, and presents itself as the "Linux of AI" with a focus on privacy and extensibility.
+
+**Areas:** AI · Demo · Platform · OpenSource · Productivity
+
+## AIMEAT on APIs.io
+
+Everything profiled for AIMEAT is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aimeat-io/](https://apis.io/providers/aimeat-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (100)
+
+- [AIMEAT A2A API](https://apis.io/apis/aimeat-io/aimeat-io-a2a-api/) — The A2A API from AIMEAT — 2 operation(s) for a2a.
+- [AIMEAT Actions API](https://apis.io/apis/aimeat-io/aimeat-io-actions-api/) — Capability publishing and discovery
+- [AIMEAT Admin API](https://apis.io/apis/aimeat-io/aimeat-io-admin-api/) — Operator dashboard and configuration
+- [AIMEAT Agent Crew API](https://apis.io/apis/aimeat-io/aimeat-io-agent-crew-api/) — A JSON crew definition for one of the owner's agents — read, draft, validate, try, publish, restore. Validation and the trial run are asked of the agent's…
+- [AIMEAT Agent Directives API](https://apis.io/apis/aimeat-io/aimeat-io-agent-directives-api/) — Per-agent directives — purpose, rules, memory areas, and resources
+- [AIMEAT Agent Goals API](https://apis.io/apis/aimeat-io/aimeat-io-agent-goals-api/) — A goal the owner gives their agents; agents take its open work, leave the next work for each other, and the person answers the steps that wait for them
+- [AIMEAT Agent Integration API](https://apis.io/apis/aimeat-io/aimeat-io-agent-integration-api/) — Agent inbox, integration kit, and long-poll task endpoints
+- [AIMEAT Agent Messages API](https://apis.io/apis/aimeat-io/aimeat-io-agent-messages-api/) — Bidirectional messaging between owners and agents with thread support
+- [AIMEAT Agent Onboarding API](https://apis.io/apis/aimeat-io/aimeat-io-agent-onboarding-api/) — Hello Integration onboarding flow for new agents
+- [AIMEAT Agent Tasks API](https://apis.io/apis/aimeat-io/aimeat-io-agent-tasks-api/) — Task queue for AI agents — create, track, and complete structured work items
+- [AIMEAT Agent Telemetry API](https://apis.io/apis/aimeat-io/aimeat-io-agent-telemetry-api/) — Telemetry event collection and retrieval for agent observability
+- [AIMEAT Agent Webhooks API](https://apis.io/apis/aimeat-io/aimeat-io-agent-webhooks-api/) — Webhook registration, testing, and delivery log for push-based agent notifications
+- [AIMEAT Agents API](https://apis.io/apis/aimeat-io/aimeat-io-agents-api/) — Agent lifecycle — registration, device authorization, profile, mode, verification, and per-agent overview aggregates
+- [AIMEAT AI API](https://apis.io/apis/aimeat-io/aimeat-io-ai-api/) — The AI API from AIMEAT — 5 operation(s) for ai.
+- [AIMEAT AI Transparency API](https://apis.io/apis/aimeat-io/aimeat-io-ai-transparency-api/) — AI provenance records (EU AI Act Article 50). One canonical record per piece of generated content - which model, which principal, when, the SHA-256 of the…
+- [AIMEAT App Grants API](https://apis.io/apis/aimeat-io/aimeat-io-app-grants-api/) — Scoped H-2 application grants — approve/revoke an app's access to an owner's data areas and fleet
+- [AIMEAT App Store API](https://apis.io/apis/aimeat-io/aimeat-io-app-store-api/) — Phase 2.6: app store licences. A purchase is one pacing charge in morsels, never a price.
+- [AIMEAT Appeals API](https://apis.io/apis/aimeat-io/aimeat-io-appeals-api/) — Phase 2.4 — Content moderation appeals
+- [AIMEAT Apps API](https://apis.io/apis/aimeat-io/aimeat-io-apps-api/) — Hosted single-file HTML apps — publish, fork, version, and per-owner app management
+- [AIMEAT Auth API](https://apis.io/apis/aimeat-io/aimeat-io-auth-api/) — Authentication and session management
+- [AIMEAT Boards API](https://apis.io/apis/aimeat-io/aimeat-io-boards-api/) — Notification boards for coordination
+- [AIMEAT Bootstrap API](https://apis.io/apis/aimeat-io/aimeat-io-bootstrap-api/) — Node discovery and self-integration
+- [AIMEAT Calibrator API](https://apis.io/apis/aimeat-io/aimeat-io-calibrator-api/) — AI model calibration projects — prompt-template tuning, scored batches, and versioned dimensions
+- [AIMEAT Capabilities API](https://apis.io/apis/aimeat-io/aimeat-io-capabilities-api/) — Capability Layer — unified discovery, invoke, and management of node capabilities
+- [AIMEAT Catalogue API](https://apis.io/apis/aimeat-io/aimeat-io-catalogue-api/) — Node directory and action/agent catalogue
+- [AIMEAT Chat API](https://apis.io/apis/aimeat-io/aimeat-io-chat-api/) — The node's built-in chat agent — conversations and one turn streamed as it happens
+- [AIMEAT Chat Instances API](https://apis.io/apis/aimeat-io/aimeat-io-chat-instances-api/) — Saved AI chat instances — per-owner chat configuration and management
+- [AIMEAT Classification API](https://apis.io/apis/aimeat-io/aimeat-io-classification-api/) — The Classification API from AIMEAT — 1 operation(s) for classification.
+- [AIMEAT Commerce API](https://apis.io/apis/aimeat-io/aimeat-io-commerce-api/) — Protocol-agnostic checkout sessions over agent offers (TARGET-033) + UCP discovery
+- [AIMEAT Companies API](https://apis.io/apis/aimeat-io/aimeat-io-companies-api/) — The company registry — a company is a first-class entity like an app, and registering one claims {slug}.co.<apex> as its address
+- [AIMEAT Compliance API](https://apis.io/apis/aimeat-io/aimeat-io-compliance-api/) — The Compliance API from AIMEAT — 26 operation(s) for compliance.
+- [AIMEAT Connections API](https://apis.io/apis/aimeat-io/aimeat-io-connections-api/) — The Connections API from AIMEAT — 21 operation(s) for connections.
+- [AIMEAT Connector Tunnel API](https://apis.io/apis/aimeat-io/aimeat-io-connector-tunnel-api/) — Persistent agent⇄server WebSocket tunnel (forward API calls + realtime reverse delivery)
+- [AIMEAT Consent API](https://apis.io/apis/aimeat-io/aimeat-io-consent-api/) — Phase 0.3 — Granular consent grants and audit
+- [AIMEAT Contacts API](https://apis.io/apis/aimeat-io/aimeat-io-contacts-api/) — Owner contact list — add, list, remove, and email resolution for sharing and messaging
+- [AIMEAT Content Classes API](https://apis.io/apis/aimeat-io/aimeat-io-contentclasses-api/) — The ContentClasses API from AIMEAT — 13 operation(s) for contentclasses.
+- [AIMEAT CORS API](https://apis.io/apis/aimeat-io/aimeat-io-cors-api/) — Per-entity CORS origin management (node → GHII → agent → memory)
+- [AIMEAT Cortex API](https://apis.io/apis/aimeat-io/aimeat-io-cortex-api/) — AI model management — register, activate, prompt templates
+- [AIMEAT Cross Federation API](https://apis.io/apis/aimeat-io/aimeat-io-cross-federation-api/) — Phase 3.4 — Advanced federation features (genesis peering)
+- [AIMEAT CSM API](https://apis.io/apis/aimeat-io/aimeat-io-csm-api/) — Phase 0.2 — Community Service Manifest registration
+- [AIMEAT CSM Templates API](https://apis.io/apis/aimeat-io/aimeat-io-csm-templates-api/) — Phase 2.5 — Community Service Manifest template library
+- [AIMEAT Data Packages API](https://apis.io/apis/aimeat-io/aimeat-io-data-packages-api/) — Frictionless Data Packages with AIMEAT provenance — publish, validate, read
+- [AIMEAT Direct Messages API](https://apis.io/apis/aimeat-io/aimeat-io-direct-messages-api/) — Human↔human (GHII↔GHII) direct messaging with first-contact consent, federation delivery, and media attachments
+- [AIMEAT Directories API](https://apis.io/apis/aimeat-io/aimeat-io-directories-api/) — Phase 1.4 — Local and thematic directory search with faceted filtering
+- [AIMEAT Discovery API](https://apis.io/apis/aimeat-io/aimeat-io-discovery-api/) — Node and capability discovery — master directory, well-known documents, and llms.txt
+- [AIMEAT Disputes API](https://apis.io/apis/aimeat-io/aimeat-io-disputes-api/) — Work queue dispute resolution (13 endpoints)
+- [AIMEAT Document signing API](https://apis.io/apis/aimeat-io/aimeat-io-document-signing-api/) — AIMEAT signing requests sealed by the node, and validation of PDF/CMS signatures made elsewhere against the EU trusted lists
+- [AIMEAT Economy API](https://apis.io/apis/aimeat-io/aimeat-io-economy-api/) — Morsel wallet and transactions
+- [AIMEAT Ecosystem Apps API](https://apis.io/apis/aimeat-io/aimeat-io-ecosystem-apps-api/) — GEAI (ecosystem application) principals — per-user, owner-approved external integrations connected via a "hello integration" handshake (RFC 8628 analog)
+- [AIMEAT Extensions API](https://apis.io/apis/aimeat-io/aimeat-io-extensions-api/) — Node Extension System — V8 isolate sandbox for operator-installed plugins
+- [AIMEAT Federation API](https://apis.io/apis/aimeat-io/aimeat-io-federation-api/) — Node peering and cross-node routing
+- [AIMEAT Finance API](https://apis.io/apis/aimeat-io/aimeat-io-finance-api/) — Company-in-a-box bookkeeping — sales invoices (Finvoice 3.0), append-only vouchers, VAT registry/report, fiscal years, accountant exports, and PSP webhooks…
+- [AIMEAT Flags API](https://apis.io/apis/aimeat-io/aimeat-io-flags-api/) — Phase 1.5 — Content quality flagging and moderation
+- [AIMEAT GHII API](https://apis.io/apis/aimeat-io/aimeat-io-ghii-api/) — Human identity (GHII) — web registration, login, email/password, account recovery, and identity verification
+- [AIMEAT GHII Web API](https://apis.io/apis/aimeat-io/aimeat-io-ghii-web-api/) — Phase 1.3 — Web registration and magic link authentication for humans
+- [AIMEAT Identity API](https://apis.io/apis/aimeat-io/aimeat-io-identity-api/) — Owner and agent registration
+- [AIMEAT Instances API](https://apis.io/apis/aimeat-io/aimeat-io-instances-api/) — Package installation, instance management, migrations
+- [AIMEAT Knowledge API](https://apis.io/apis/aimeat-io/aimeat-io-knowledge-api/) — Knowledge packages — import, link, share, clone, contribute
+- [AIMEAT LLM Proxy API](https://apis.io/apis/aimeat-io/aimeat-io-llm-proxy-api/) — An OpenAI-compatible door in front of the node's own key choice, budget and usage record
+- [AIMEAT MCP API](https://apis.io/apis/aimeat-io/aimeat-io-mcp-api/) — Model Context Protocol integration (optional extension)
+- [AIMEAT MCP Servers API](https://apis.io/apis/aimeat-io/aimeat-io-mcp-servers-api/) — The MCP Servers API from AIMEAT — 12 operation(s) for mcp servers.
+- [AIMEAT Memory API](https://apis.io/apis/aimeat-io/aimeat-io-memory-api/) — Key-value memory storage with visibility controls
+- [AIMEAT Notifications API](https://apis.io/apis/aimeat-io/aimeat-io-notifications-api/) — Web push subscriptions and personal-node notification delivery
+- [AIMEAT Organisms API](https://apis.io/apis/aimeat-io/aimeat-io-organisms-api/) — Phase 2.2 — Group entities (clubs, teams, communities)
+- [AIMEAT Outbound API](https://apis.io/apis/aimeat-io/aimeat-io-outbound-api/) — The outbound messaging door — saved recipient registry, policied send (inbox-first, opt-out, bounce suppression, daily limit), append-only send log, public…
+- [AIMEAT Owner API](https://apis.io/apis/aimeat-io/aimeat-io-owner-api/) — Owner-scoped aggregate views (usage, wallet, work, security overviews) backing the profile SPA
+- [AIMEAT Packages API](https://apis.io/apis/aimeat-io/aimeat-io-packages-api/) — Package creation, versioning, import/export
+- [AIMEAT Passkeys API](https://apis.io/apis/aimeat-io/aimeat-io-passkeys-api/) — The Passkeys API from AIMEAT — 6 operation(s) for passkeys.
+- [AIMEAT Permissions API](https://apis.io/apis/aimeat-io/aimeat-io-permissions-api/) — Access model — groups, levels, and effective-access resolution (authority ∩ consent)
+- [AIMEAT Portal API](https://apis.io/apis/aimeat-io/aimeat-io-portal-api/) — The Portal API from AIMEAT — 14 operation(s) for portal.
+- [AIMEAT Presence API](https://apis.io/apis/aimeat-io/aimeat-io-presence-api/) — Human (GHII) presence/availability — manual/auto status, who-can-see visibility, federated cache
+- [AIMEAT Prompts API](https://apis.io/apis/aimeat-io/aimeat-io-prompts-api/) — The Prompts API from AIMEAT — 3 operation(s) for prompts.
+- [AIMEAT Public API](https://apis.io/apis/aimeat-io/aimeat-io-public-api/) — Public unauthenticated endpoints — static pages, discovery documents, and public directory reads
+- [AIMEAT Public Intake API](https://apis.io/apis/aimeat-io/aimeat-io-public-intake-api/) — Anonymous public intake — reveal-locked forms and prompt-driven submission without an account
+- [AIMEAT Push API](https://apis.io/apis/aimeat-io/aimeat-io-push-api/) — The Push API from AIMEAT — 1 operation(s) for push.
+- [AIMEAT PWA API](https://apis.io/apis/aimeat-io/aimeat-io-pwa-api/) — Phase 3.1 — Progressive Web App features (push notifications)
+- [AIMEAT Realtime API](https://apis.io/apis/aimeat-io/aimeat-io-realtime-api/) — WebRTC realtime rooms — signalling, relay, ICE servers, and federated room discovery
+- [AIMEAT Refinery API](https://apis.io/apis/aimeat-io/aimeat-io-refinery-api/) — The Refinery API from AIMEAT — 3 operation(s) for refinery.
+- [AIMEAT Reputation API](https://apis.io/apis/aimeat-io/aimeat-io-reputation-api/) — Phase 3.4 — Organism reputation scoring
+- [AIMEAT Schedules API](https://apis.io/apis/aimeat-io/aimeat-io-schedules-api/) — Scheduled jobs and recurring automation triggers
+- [AIMEAT Schema API](https://apis.io/apis/aimeat-io/aimeat-io-schema-api/) — Phase 0.1 — Schema locking for memory key patterns
+- [AIMEAT Secrets API](https://apis.io/apis/aimeat-io/aimeat-io-secrets-api/) — The owner's write-only credential vault — named keys the node uses on their behalf and nothing reads back
+- [AIMEAT Setup API](https://apis.io/apis/aimeat-io/aimeat-io-setup-api/) — Phase 1.2 — First-run node setup wizard and initialization
+- [AIMEAT Sharing Groups API](https://apis.io/apis/aimeat-io/aimeat-io-sharing-groups-api/) — Named groups for sharing memory and files with specific users and agents
+- [AIMEAT Signals API](https://apis.io/apis/aimeat-io/aimeat-io-signals-api/) — Hit collection — one generic counter behind every channel (email opens and clicks, published page fetches, QR scans, an app's own events), a monthly roll-up…
+- [AIMEAT Site API](https://apis.io/apis/aimeat-io/aimeat-io-site-api/) — Node Portal — custom HTML template with dynamic tag resolution
+- [AIMEAT Skills API](https://apis.io/apis/aimeat-io/aimeat-io-skills-api/) — Skills registry — SKILL.md packs in scoped registries (node/user), linked to agents by ref
+- [AIMEAT SSO API](https://apis.io/apis/aimeat-io/aimeat-io-sso-api/) — The SSO API from AIMEAT — 9 operation(s) for sso.
+- [AIMEAT Stats API](https://apis.io/apis/aimeat-io/aimeat-io-stats-api/) — Node statistics and metrics
+- [AIMEAT Storage API](https://apis.io/apis/aimeat-io/aimeat-io-storage-api/) — Binary file storage
+- [AIMEAT Templates API](https://apis.io/apis/aimeat-io/aimeat-io-templates-api/) — Template gallery, reviews, discussions
+- [AIMEAT TOTP API](https://apis.io/apis/aimeat-io/aimeat-io-totp-api/) — Phase 0.5 — Time-based one-time password two-factor authentication
+- [AIMEAT Tracked Responses API](https://apis.io/apis/aimeat-io/aimeat-io-tracked-responses-api/) — Prompt-driven tracked responses — threading previous AI outputs into subsequent prompts
+- [AIMEAT Upload API](https://apis.io/apis/aimeat-io/aimeat-io-upload-api/) — Presigned upload URLs for binary file transfer (apps, storage, extensions, cortex)
+- [AIMEAT Usage API](https://apis.io/apis/aimeat-io/aimeat-io-usage-api/) — The Usage API from AIMEAT — 3 operation(s) for usage.
+- [AIMEAT Verification API](https://apis.io/apis/aimeat-io/aimeat-io-verification-api/) — Phase 3.3 — Identity verification (EUDIW, FTN, W3C VC)
+- [AIMEAT Work Queue API](https://apis.io/apis/aimeat-io/aimeat-io-work-queue-api/) — Work request, delivery, and lifecycle
+- [AIMEAT Workflows API](https://apis.io/apis/aimeat-io/aimeat-io-workflows-api/) — Multi-step agent workflows — save, run, answer human-input steps, and inspect pending inputs
+- [AIMEAT Workspaces API](https://apis.io/apis/aimeat-io/aimeat-io-workspaces-api/) — Phase 2.3 — Collaborative memory namespaces
+- [AIMEAT Open Router API](https://apis.io/apis/aimeat-io/aimeat-io-open-router-api/) — OpenRouter AI integration for automated generator steps. Owner-only endpoints.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aimeat Io Agentic Access](https://apis.io/agentic-access/aimeat-io/aimeat-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AiProvenanceDeclaration](https://apis.io/schemas/aimeat-io/aimeat-io-ai-provenance-declaration/)
+- [AppSummary](https://apis.io/schemas/aimeat-io/aimeat-io-app-summary/)
+- [MemoryWrite](https://apis.io/schemas/aimeat-io/aimeat-io-memory-write/)
+- [ScheduleCreate](https://apis.io/schemas/aimeat-io/aimeat-io-schedule-create/)
+- [WorkflowDefInput](https://apis.io/schemas/aimeat-io/aimeat-io-workflow-def-input/)
+- [WorkflowRun](https://apis.io/schemas/aimeat-io/aimeat-io-workflow-run/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aimeat Io Context](https://apis.io/jsonld/aimeat-io/aimeat-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AIMEAT API Rules](https://apis.io/rules/aimeat-io/aimeat-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aimeat Io Authentication](https://apis.io/security/aimeat-io/aimeat-io-authentication/)
+- [Aimeat Io Domain Security](https://apis.io/security/aimeat-io/aimeat-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aimeat Io Plans Pricing](https://apis.io/plans/aimeat-io/aimeat-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aimeat.io/)
+- [Documentation](https://aimeat.io/v1/portal)
+- [API reference](https://aimeat.io/v1/spec)
+- [Pricing](https://aimeat.io/v1/pricing)
+- [Support](https://aimeat.io/v1/help)
+- [Changelog](https://aimeat.io/v1/changelog)
+- [Terms of service](https://aimeat.io/v1/terms)
+- [Privacy policy](https://aimeat.io/v1/privacy)
+- [GitHub](https://github.com/miikkij/aimeat-protocol)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/aimeat-io/](https://apis.io/providers/aimeat-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AIMEAT: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aimeat-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
