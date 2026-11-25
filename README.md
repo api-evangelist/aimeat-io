@@ -66,7 +66,7 @@
 
 AIMEAT is a free demo site that showcases an AI memory exchange and action transfer platform. It allows users to connect their own AI models, run agents, and accelerate AI-driven work. The site provides open access without registration, emphasizing user control over data and models, and presents itself as the "Linux of AI" with a focus on privacy and extensibility.
 
-**Areas:** AI · Demo · Platform · OpenSource · Productivity
+**Areas:** Artificial Intelligence · Demo · Platform · Open Source · Productivity
 
 ## AIMEAT on APIs.io
 
@@ -179,22 +179,48 @@ Everything profiled for AIMEAT is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aimeat-io-mcp.yml](https://apis.io/servers/aimeat-io/aimeat-io-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aimeat Io Agentic Access](https://apis.io/agentic-access/aimeat-io/aimeat-io-agentic-access/)
+- [AIMEAT Agentic Access](https://apis.io/agentic-access/aimeat-io/aimeat-io-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (66)
 
 The data models the API reads and writes.
 
+- [ActionDetail](https://apis.io/schemas/aimeat-io/aimeat-io-action-detail/)
+- [ActionPublish](https://apis.io/schemas/aimeat-io/aimeat-io-action-publish/)
+- [AddressBookPerson](https://apis.io/schemas/aimeat-io/aimeat-io-address-book-person/)
+- [AgentCrewPublished](https://apis.io/schemas/aimeat-io/aimeat-io-agent-crew-published/)
+- [AgentCrewState](https://apis.io/schemas/aimeat-io/aimeat-io-agent-crew-state/)
+- [AgentDefaults](https://apis.io/schemas/aimeat-io/aimeat-io-agent-defaults/)
+- [AgentDirectives](https://apis.io/schemas/aimeat-io/aimeat-io-agent-directives/)
+- [AgentOnboardingRecord](https://apis.io/schemas/aimeat-io/aimeat-io-agent-onboarding-record/)
+- [AgentPurchaseLimitView](https://apis.io/schemas/aimeat-io/aimeat-io-agent-purchase-limit-view/)
+- [AgentRefusal](https://apis.io/schemas/aimeat-io/aimeat-io-agent-refusal/)
+- [AgentScopeRequest](https://apis.io/schemas/aimeat-io/aimeat-io-agent-scope-request/)
+- [AgentTask](https://apis.io/schemas/aimeat-io/aimeat-io-agent-task/)
+- [AiCallRole](https://apis.io/schemas/aimeat-io/aimeat-io-ai-call-role/)
+- [AiImageInput](https://apis.io/schemas/aimeat-io/aimeat-io-ai-image-input/)
 - [AiProvenanceDeclaration](https://apis.io/schemas/aimeat-io/aimeat-io-ai-provenance-declaration/)
+- [AimeatEnvelope](https://apis.io/schemas/aimeat-io/aimeat-io-aimeat-envelope/)
 - [AppSummary](https://apis.io/schemas/aimeat-io/aimeat-io-app-summary/)
-- [MemoryWrite](https://apis.io/schemas/aimeat-io/aimeat-io-memory-write/)
-- [ScheduleCreate](https://apis.io/schemas/aimeat-io/aimeat-io-schedule-create/)
-- [WorkflowDefInput](https://apis.io/schemas/aimeat-io/aimeat-io-workflow-def-input/)
-- [WorkflowRun](https://apis.io/schemas/aimeat-io/aimeat-io-workflow-run/)
+- [AppealRecord](https://apis.io/schemas/aimeat-io/aimeat-io-appeal-record/)
+- [AppsBackupInspection](https://apis.io/schemas/aimeat-io/aimeat-io-apps-backup-inspection/)
+- [AppsBackupRestoreSummary](https://apis.io/schemas/aimeat-io/aimeat-io-apps-backup-restore-summary/)
+- [Catalogue](https://apis.io/schemas/aimeat-io/aimeat-io-catalogue/)
+- [ClassificationWarnings](https://apis.io/schemas/aimeat-io/aimeat-io-classification-warnings/)
+- [ConnectionReply](https://apis.io/schemas/aimeat-io/aimeat-io-connection-reply/)
+- [ConsentGrant](https://apis.io/schemas/aimeat-io/aimeat-io-consent-grant/)
+- [ContactConsentRecord](https://apis.io/schemas/aimeat-io/aimeat-io-contact-consent-record/)
+- …and 41 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -212,14 +238,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aimeat Io Authentication](https://apis.io/security/aimeat-io/aimeat-io-authentication/)
-- [Aimeat Io Domain Security](https://apis.io/security/aimeat-io/aimeat-io-domain-security/)
+- [AIMEAT Authentication](https://apis.io/security/aimeat-io/aimeat-io-authentication/)
+- [AIMEAT Domain Security](https://apis.io/security/aimeat-io/aimeat-io-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aimeat Io Plans Pricing](https://apis.io/plans/aimeat-io/aimeat-io-plans-pricing/)
+- [AIMEAT Plans Pricing](https://apis.io/plans/aimeat-io/aimeat-io-plans-pricing/)
 
 ## Where to find this API
 
@@ -237,7 +263,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aimeat-io/](https://apis.io/providers/aimeat-io/).
+**Kin Score 59.5** — strong · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 81.7 |
+| Contract quality | 60.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 51.8 |
+| Access clarity | 55.3 |
+
+**Agent readiness 71.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | deployed |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | self |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aimeat-io/](https://apis.io/providers/aimeat-io/).
 
 ## How this profile is made
 
